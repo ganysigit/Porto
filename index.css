@@ -1,0 +1,119 @@
+/* GLOBAL */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* MARGIN 1200 */
+.margin-1200 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+#header {
+    height: 700px;
+    background: url(img/bg_header.svg);
+    background-size: cover ;
+}
+/* NAVIGASI BAR */
+
+.navigasi {
+    width: 100%;
+    padding: 20px 0 20px 0;
+    margin-bottom: 20px;
+}
+
+.navigasi ul {
+    display: flex;
+    float: right;
+    padding-top: 10px;
+}
+
+.navigasi ul li {
+    list-style-type: none;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.navigasi ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navigasi .btn-contact {
+    float: right;
+    margin-top: 3px;
+}
+
+.navigasi img {
+    width: 40px;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+/* BUTTON NAVIGASI BAR */
+.btn-contact {
+    padding: 7px 30px 7px 30px;
+    background: #5CB6FF;
+    color: white;
+    text-decoration: none;
+    border-radius: 14px;
+}
+
+/* ISI HEADER */
+.main {
+    float: left;
+    margin-top: 130px;
+}
+
+.thin {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.big {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.thin2 {
+    font-weight: 300;
+    margin-top: -10px;
+}
+
+.main p {
+    font-size: 12px;
+    margin-top: 20px;
+    font-weight: 300;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+/* ORANG */
+.person {
+    height: 560px;
+    float: right;
+    margin: -320px 100px 0 0;
+}
+
+/* BUTTON MAIN */
+.btn-header-left {
+    padding: 7px 30px 7px 30px;
+    background: #5CB6FF;
+    color: white;
+    text-decoration: none;
+    border-radius: 14px;
+    margin-right: 20px ;
+}
+
+.btn-header-right {
+    padding: 7px 30px 7px 30px;
+    background: #fff;
+    color: #5CB6FF;
+    border: 2px #5CB6FF solid;
+    text-decoration: none;
+    border-radius: 14px;
+    margin-top: 20px;
+}
