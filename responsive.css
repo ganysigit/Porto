@@ -1,0 +1,170 @@
+@media only screen and (max-width: 610px) {
+    .margin-1200 {
+        width: 500px;
+    }
+
+    .navigasi ul {
+        float: none;
+    }
+
+    .navigasi ul li {
+        margin-right: 20px;
+    }
+
+    .navigasi {
+        display: grid;
+        justify-content: center;
+    }
+
+    .navigasi img {
+        margin: 0 auto;
+    }
+
+    .navigasi  .logo-font{
+        text-align: center;
+        text-decoration: none;
+        color: black;
+    }
+
+    .navigasi .btn-contact {
+        text-align: center;
+    }
+    
+    .person {
+        height: 300px;
+        float: right;
+        margin: -179px 0px 0 0;
+    }
+
+    .main {
+        margin-top: 90px;
+    }
+
+    .left-desc {
+        position: unset;
+        float: none;
+        margin-top: 70px;
+    }
+
+    .left-desc p {
+        width: 100%;
+    }
+
+    .right-desc {
+        float: none;
+        display: flex;
+    }
+
+    .right-desc img {
+        margin: 0 auto;
+    }
+
+    #about-me {
+        padding-top: 50px;
+    }
+
+    .social-media a {
+        padding: 6px 12px 6px 12px;
+    }   
+
+    .skill-bar {
+        width: 100%;
+    }
+
+    @keyframes html {
+        to {
+            width: 80%;
+        }
+    }
+    
+    .css {
+        width: 100%;
+    }
+
+    @keyframes css {
+        to {
+            width: 70%;
+        }
+    }
+
+    .js {
+        width: 100%;
+    }
+
+    @keyframes js {
+        to {
+            width: 30%;
+        }
+    }
+
+    .design {
+        width: 100%;
+    }
+    
+    @keyframes design{
+        to {
+            width: 90%;
+        }
+    }
+
+    #portofolio {
+        margin-top: 0;
+    }
+
+    .post-preview {
+        display: block;
+    }
+
+    .post1 {
+        width: 320px;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .post-preview2 {
+        display: block;
+    }
+
+    .post2 {
+        width: 320px;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .container-blog {
+        display: block;
+    }
+
+    .frame-blog {
+        overflow-y: hidden;
+        width: 100%;
+    }
+
+    .frame-blog h3 {
+        margin-top: 219px;
+    }
+
+    .frame-blog2 {
+        overflow-y: hidden;
+        width: 100%;
+        height: 600px;
+    }
+
+    .frame-blog2 h3 {
+        margin-top: 450px;
+    }
+
+    .footer-desc {
+        margin-top: -1px;
+    }
+
+    .footer-desc p {
+        float: none;
+        text-align: center;
+    }
+
+    .footer-desc ul {
+        float: none;
+        justify-content: center;
+    }
+}

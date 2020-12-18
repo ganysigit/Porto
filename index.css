@@ -26,6 +26,11 @@
     margin-bottom: 20px;
 }
 
+.logo-font {
+    text-decoration: none;
+    color: black;
+}
+
 .navigasi ul {
     display: flex;
     float: right;
